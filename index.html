@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="SHORTCUT ICON" href="" />
+    <title>Appli-Ai</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/boarding.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="main">
+        <div class="appliai-boardingpage" id="boardingpage">
+            <div class="appli-ai-container">
+                <header class="boarding-header"><img src="images/logo.png" alt="Appli-Ai" width="60" height="60"> <span><select><option>English</option></select></span></header>
+                <div class="appli-boardingmiddle">
+                    <div class="boardingleftpanel">
+                        <div class="leftcontent">
+                            <img src="images/landingicon.png" alt="" class="boardingimage" />
+                            <p class="testimonial">
+                                Hi, I'm Ti, your personal university application assistant! From choosing the right programs to monitoring your applications, I'm here to support you!
+                            </p>
+                            <img src="images/dots.svg" alt="" class="dotsimg">
+                        </div>
+                    </div>
+                    <div class="boardingrightpanel">
+                        <span class="panel-left-top"></span> <span class="panel-right-top"></span> <span class="panel-left-bottom"></span> <span class="panel-right-bottom"></span>
+                        <div class="boardingrtinner">
+                            <h1>
+                                Welcome to Appli-AI
+                            </h1>
+                            <p class="aldrichft">Guide Your Journey to Success</p>
+
+                            <div class="social-signups">
+                                <ul>
+                                    <li class="social-i">
+                                        <a><i class="icon-Asset-131"></i>Google</a>
+                                    </li>
+                                    <li class="social-i">
+                                        <a><i class="icon-Asset-133"></i>Facebook</a>
+                                    </li>
+                                    <li class="social-i">
+                                        <a><i class="icon-Asset-132"></i>Apple</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="signups-form">
+                                <h4 class="aldrichft">or sign up with</h4>
+                                <div class="textbox">
+                                    <label>Email</label>
+                                    <input type="text" name="Email" class="input-txt" placeholder="Enter your email to continue..">
+                                </div>
+                                <span class="agreeterms aldrichft">By click on "Continue", I agree Terms and Privacy Policy</span>
+                                <button class="btn-continue">Continue</button>
+                                <div class="bottom-text"><span class="aldrichft">Already have an account?</span><button>Sign in</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="js/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.btn-continue').click(function() {
+            window.location.href = 'home.html';
+        });
+    });
+</script>
